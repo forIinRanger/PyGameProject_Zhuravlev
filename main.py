@@ -59,7 +59,7 @@ class Game:
                 curr_x += intro_rect.width
                 intro_rect.x = curr_x
                 self.sc.blit(string_rendered, intro_rect)
-                time.sleep(0)
+                time.sleep(0.4)
                 pygame.display.flip()
                 final_x = curr_x + intro_rect.width
             curr_y += 40
